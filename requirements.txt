@@ -1,0 +1,14 @@
+# Проверено на Python 3.13.7
+numpy==2.3.4
+pandas==2.3.3
+scipy==1.16.3
+scikit-learn==1.7.2
+scikit-surprise==1.1.5
+matplotlib==3.10.7
+seaborn==0.13.2
+jupyter==1.1.1
+nbformat==5.10.4
+nbclient==0.10.2
+ipykernel==7.1.0
+joblib==1.6.0
+threadpoolctl==3.7.0

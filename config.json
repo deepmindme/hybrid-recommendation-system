@@ -1,0 +1,18 @@
+{
+  "seed": 42,
+  "cold_users": 300,
+  "cold_books": 100,
+  "rank_train_users": 3500,
+  "valid_users": 600,
+  "test_users": 2500,
+  "cold_eval_users": 1000,
+  "per_source": 80,
+  "neighbors": 50,
+  "min_ratings": 30,
+  "factors": 64,
+  "svd_epochs": 30,
+  "svd_reg": 0.1,
+  "mlp_epochs": 12,
+  "negative_ratio": 10,
+  "diversity_budget": 0.02
+}

@@ -1,0 +1,81 @@
+{
+  "config": {
+    "seed": 42,
+    "cold_users": 300,
+    "cold_books": 100,
+    "rank_train_users": 3500,
+    "valid_users": 600,
+    "test_users": 2500,
+    "cold_eval_users": 1000,
+    "per_source": 80,
+    "neighbors": 50,
+    "min_ratings": 30,
+    "factors": 64,
+    "svd_epochs": 30,
+    "svd_reg": 0.1,
+    "mlp_epochs": 12,
+    "negative_ratio": 10,
+    "diversity_budget": 0.02
+  },
+  "splits": {
+    "core": 551599,
+    "rank_train": 106744,
+    "validation": 134308,
+    "test": 170108,
+    "cold_users": 6925,
+    "cold_books": 9794
+  },
+  "final_training_ratings": 792651,
+  "dataset_ratings": 979478,
+  "users": 53424,
+  "books": 10000,
+  "selected": {
+    "weights": [
+      0.05,
+      0.3,
+      0.05,
+      0.05,
+      0.55
+    ],
+    "alpha": 0.5,
+    "mmr": {
+      "Hybrid + MMR": 0.8,
+      "Hybrid + MLP + MMR": 0.8
+    }
+  },
+  "sampling": {
+    "users_with_hits": 2363,
+    "users_without_hits": 1137,
+    "examples": 53724,
+    "positives": 4884,
+    "negatives": 48840,
+    "nn_base_epoch": 7,
+    "nn_base_validation_nDCG5": 0.12056843847643028,
+    "nn_epoch": 6,
+    "nn_validation_nDCG5": 0.11654986556906766
+  },
+  "ranking_users": 2500,
+  "validation_users": 600,
+  "feature_count": 34,
+  "candidate_recall": 0.5590622657384514,
+  "checks": {
+    "split_disjoint": true,
+    "metric_examples": true,
+    "no_seen_items": true,
+    "public_api_matches_evaluation": true,
+    "cold_holdouts": true,
+    "unknown_user_fallback": true
+  },
+  "comparison_model": "MLP full",
+  "hybrid_difference": 0.02286371108934585,
+  "hybrid_CI95": [
+    0.01782712787607759,
+    0.028022334494091992
+  ],
+  "feature_difference": 0.024302274223158258,
+  "feature_CI95": [
+    0.017490424011990215,
+    0.030839961743333262
+  ],
+  "elapsed_seconds": 38.677811292000115
+}

@@ -1,0 +1,10 @@
+{
+  "full_catalog_baselines_match_pool": true,
+  "mmr_identity": true,
+  "same_test_users": true,
+  "candidate_recall_bound": true,
+  "neural_loss_decreased": true,
+  "mlp_architecture": true,
+  "new_user_fallback": true,
+  "diversity_validation_constraint": true
+}
